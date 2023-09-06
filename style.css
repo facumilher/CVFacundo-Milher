@@ -1,0 +1,36 @@
+*{
+    background-color: white;
+}
+#Foto{
+    right: 200px;
+}
+#nombre{
+    text-align: right;
+}
+a{
+    color: black;
+}
+.viñetaHome{
+    font-size: larger;
+}
+.viñetaEducacion{
+    margin-top: 15%;
+    font-size: medium;
+}
+h2{
+    color:blue
+}
+.linea-recta {
+    border: 1px solid black; /* Cambia el grosor y color de la línea según lo necesites */
+    margin: 20px 0; /* Espacio antes y después de la línea */
+}
+
+.viñetaSkills{
+    margin-top: 8%;
+    font-size: medium;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
