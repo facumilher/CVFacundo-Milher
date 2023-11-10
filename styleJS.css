@@ -1,43 +1,14 @@
-*{
-    background-color: white;
-}
-#Foto{
-    right: 200px;
-}
-#nombre{
-    text-align: right;
+.linea-recta {
+    border: 1px solid black; /* Cambia el grosor y color de la línea según lo necesites */
+    margin: 20px 0; /* Espacio antes y después de la línea */
 }
 a{
     color: black;
 }
-.viñetaHome{
-    font-size: larger;
-}
-.viñetaEducacion{
-    margin-top: 15%;
-    font-size: medium;
-}
-h2{
-    color:blue
-}
-.linea-recta {
-    border: 1px solid black; /* Cambia el grosor y color de la línea según lo necesites */
-     /* Espacio antes y después de la línea */
-}
-
 .viñetaSkills{
     margin-top: 8%;
     font-size: medium;
 }
-.body-style {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilos para el h1 */
 .h1-style {
     color: #333;
 }
@@ -49,14 +20,19 @@ h2{
     margin: 20px;
 }
 
-#options-container button {
-    background-color: #3498db;
-    color: #fff;
+#options-container {
+    display: flex;
+    flex-direction: row;
     padding: 10px 20px;
     border: none;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.options-container button {
+    margin-left: 5%;
+    margin-top: 3%; /* Ajusta el valor del margen según tu preferencia */
 }
 
 #next-button {
