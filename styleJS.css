@@ -32,7 +32,8 @@ a{
 
 .options-container button {
     margin-left: 5%;
-    margin-top: 3%; /* Ajusta el valor del margen según tu preferencia */
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #next-button {

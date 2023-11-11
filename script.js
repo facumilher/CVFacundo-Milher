@@ -5,14 +5,24 @@ const questions = [
         correctAnswer: "Facundo"
     },
     {
-        question: "Que carrera estoy estudiando?",
+        question: "¿Que carrera estoy estudiando?",
         options: ["Ing.Industrial", "Marketing", "Comercio Internacional", "Licenciatura en Sistemas"],
         correctAnswer: "Licenciatura en Sistemas"
     },
     {
-        question: "Cual es mi nacionalidad?",
-        options: ["Venezolano", "Brasilero", "Argentino", "Uruguayo"],
+        question: "¿Cual es mi nacionalidad?",
+        options: ["Venezolano", "Chileno", "Argentino", "Uruguayo"],
         correctAnswer: "Argentino"
+    },
+    {
+        question: "¿Donde estoy trabajando actualmente como Data Engineer?",
+        options: ["PWC", "IBM", "Mercado Libre", "Globant"],
+        correctAnswer: "IBM"
+    },
+    {
+        question: "¿Tengo conocimiento en Python?",
+        options: ["Si", "No"],
+        correctAnswer: "Si"
     }
 ];
 
